@@ -11,6 +11,7 @@ public class FactorialUsingRecursion {
 		Scanner input = new Scanner(System.in);
 		int numberForFactorial = input.nextInt();
 		System.out.println(factorial(numberForFactorial));
+		input.close();
 	}
 
 	private static int factorial(int value) {
